@@ -1,3 +1,4 @@
+[Discussion Post (created on 23/3/2021 at 16:16)](https://leetcode.com/problems/create-target-array-in-the-given-order/discuss/1172788/JavaScript)  
 <h2>1389. Create Target Array in the Given Order</h2><h3>Easy</h3><hr><div><p>Given two arrays of integers&nbsp;<code>nums</code> and <code>index</code>. Your task is to create <em>target</em> array under the following rules:</p>
 
 <ul>
