@@ -4,5 +4,10 @@
  * @return {number[]}
  */
 var decode = function(encoded, first) {
-    return [first, ...encoded].map((v, i, a) => a[i] ^= (a[i - 1] || 0));
+    let arr = [];
+    arr[0] = first;
+    for (let i = 0; i < encoded.length; i++) {
+        arr[i + 1] = encoded[i] ^ arr[i];
+    }
+    return arr;
 };
